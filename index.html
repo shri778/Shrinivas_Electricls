@@ -102,7 +102,7 @@
         chatBox.innerHTML += `<div class="user"><b>You:</b> ${message}</div>`;
         input.value = "";
 
-        fetch("https://backend-q4k0.onrender.com", {   // 👈 CHANGE THIS
+        fetch("https://backend-q4k0.onrender.com/chat", {   // 👈 CHANGE THIS
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
